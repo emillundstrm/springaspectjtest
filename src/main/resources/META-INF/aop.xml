@@ -1,0 +1,9 @@
+<!DOCTYPE aspectj PUBLIC
+    "-//AspectJ//DTD//EN"    "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+  <weaver options="-XnoInline -debug -verbose -Xreweavable -showWeaveInfo">
+  </weaver>
+  <aspects>
+    <aspect name="org.springframework.transaction.aspectj.AnnotationTransactionAspect" />
+  </aspects>
+</aspectj>
